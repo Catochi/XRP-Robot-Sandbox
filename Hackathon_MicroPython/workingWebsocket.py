@@ -246,7 +246,7 @@ try:
 
     print("* Setup complete, entering main loop")
     last_message_time = 0
-    message_interval = 5  # seconds between test messages
+    message_interval = 30  # seconds between test messages
     
     # Initialize ping/pong tracking
     last_ping_sent = time.time()
